@@ -37,7 +37,7 @@
 .ac-container input{
     display: none;
 }
-.ac-container article{
+.ac-container .ac-small{
     background: rgba(255, 255, 255, 0.5);
     margin-top: -1px;
     overflow: hidden;
@@ -51,6 +51,6 @@
     transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
 }
 
-.ac-container input:checked ~ article.ac-small{
+.ac-container input:checked ~ .ac-small{
     display:block;
 }

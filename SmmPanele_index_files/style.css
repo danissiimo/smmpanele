@@ -281,7 +281,7 @@ body.dashboard select.form-control, body.dashboard input.form-control {
 }
 body.dashboard select.form-control {
     -webkit-appearance: none;
-    background-image: url('/images/build/front/7WEhBHJ.png');
+    background-image: url('https://smmpanele.ru/images/build/front/7WEhBHJ.png');
     background-repeat: no-repeat;
     background-position: 99% center;
     padding-right: 60px;
@@ -882,7 +882,7 @@ body.guest nav.navbar li:last-child a {
 
 
 section.formSec {
-  	background-image: url('/images/build/front/topShapeBg.png');
+  	background-image: url('https://smmpanele.ru/images/build/front/topShapeBg.png');
     background-repeat: no-repeat;
     position: relative;
     top: -62px;
@@ -994,7 +994,7 @@ img.shoutingGirl {
     bottom: -100px;
     left: 0;
     right: 0;
-    background-image: url('/images/build/front/wSvalNu.png');
+    background-image: url('https://smmpanele.ru/images/build/front/wSvalNu.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -1042,7 +1042,7 @@ section.secondSec {
 }
 section.secondSec::before {
    	content: '';
-    background-image: url('/images/build/front/tFGIXCF.png');
+    background-image: url('https://smmpanele.ru/images/build/front/tFGIXCF.png');
   	background-repeat: no-repeat;
     width: 280px;
     height: 100%;
@@ -1053,7 +1053,7 @@ section.secondSec::before {
 }
 section.secondSec::after {
     content: '';
-    background-image: url('/images/build/front/QmNxaA1.png');
+    background-image: url('https://smmpanele.ru/images/build/front/QmNxaA1.png');
   	background-repeat: no-repeat;
     position: absolute;
     width: 200px;
@@ -1256,7 +1256,7 @@ section.fourthSec .serBox h4 {
 }
 section.fourthSec::after {
     content: '';
-    background-image: url('/images/build/front/S3a90CH.png');
+    background-image: url('https://smmpanele.ru/images/build/front/S3a90CH.png');
     background-repeat: no-repeat;
     position: absolute;
     width: 340px;
@@ -1293,7 +1293,7 @@ section.fifthSec {
 }
 section.fifthSec::before {
     content: '';
-    background-image: url('/images/build/front/tFGIXCF.png');
+    background-image: url('https://smmpanele.ru/images/build/front/tFGIXCF.png');
     background-repeat: no-repeat;
     width: 400px;
     height: 100%;
@@ -1475,7 +1475,7 @@ section.seventhSec .compare.after .time {
 }
 section.seventhSec::before {
     content: '';
-    background-image: url('/images/build/front/BhAQ4DA.png');
+    background-image: url('https://smmpanele.ru/images/build/front/BhAQ4DA.png');
     background-repeat: no-repeat;
     width: 290px;
     height: 100%;
@@ -1486,7 +1486,7 @@ section.seventhSec::before {
 }
 section.seventhSec::after {
     content: '';
-    background-image: url('/images/build/front/paT7OaC.png');
+    background-image: url('https://smmpanele.ru/images/build/front/paT7OaC.png');
     background-repeat: no-repeat;
     width: 250px;
     height: 100%;
@@ -1723,7 +1723,7 @@ body.guest .customHeight {
     height: 100px;
 }
 body.guest.elsePage {
-    background-image: url('/images/build/front/topShape.png');
+    background-image: url('https://smmpanele.ru/images/build/front/topShape.png');
     background-repeat: no-repeat;
     background-size: 70% 700px;
     background-position: top right;
