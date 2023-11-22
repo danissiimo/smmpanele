@@ -1,0 +1,85 @@
+$(document).ready(function(){
+
+    $('#auth_form_popup').submit(function(e) {
+        var inp_auth_email = $('#auth_email_popup').val();
+        var inp_auth_pass = $('#auth_pass_popup').val();
+
+        if(inp_auth_email.length < 3){
+            $.wnoty({
+                type: 'error',
+                message: 'Заполните email или логин',
+                autohideDelay: 5000
+            });
+
+            return false;
+        }
+
+        if(inp_auth_pass.length < 4){
+            $.wnoty({
+                type: 'error',
+                message: 'Введите пароль',
+                autohideDelay: 5000
+            });
+
+            return false;
+        }
+
+        $(this).submit();
+
+        return false;
+    });
+
+    $('#reg_form_popup').submit(function(e) {
+        var inp_auth_email = $('#reg_email_popup').val();
+        var inp_auth_login = $('#reg_login_popup').val();
+        var inp_auth_pass = $('#reg_pass_popup').val();
+        var inp_auth_rep = $('#reg_pass_rep_popup').val();
+
+        if(inp_auth_email.length < 4){
+            $.wnoty({
+                type: 'error',
+                message: 'Заполните email',
+                autohideDelay: 5000
+            });
+
+            return false;
+        }
+
+        if(inp_auth_pass.length < 5){
+            $.wnoty({
+                type: 'error',
+                message: 'Введите пароль больше 5 символов',
+                autohideDelay: 5000
+            });
+
+            return false;
+        }
+
+        if(inp_auth_login.length < 3){
+            $.wnoty({
+                type: 'error',
+                message: 'Введите логин',
+                autohideDelay: 5000
+            });
+
+            return false;
+        }
+
+        if(inp_auth_pass !== inp_auth_rep){
+            $.wnoty({
+                type: 'error',
+                message: 'Пароли не совпадают',
+                autohideDelay: 5000
+            });
+
+            return false;
+        }
+
+        $(this).submit();
+    });
+
+});
+
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}

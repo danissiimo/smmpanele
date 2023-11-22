@@ -1,0 +1,80 @@
+.ui-selectmenu-button{
+    display:inline-block;
+    line-height:40px;
+}
+
+.ui-selectmenu-icon{
+    display:none;
+}
+
+.ui-menu{
+    max-height:450px;
+}
+
+.ui-menu-item-wrapper{
+    height:auto;
+    display: flex;
+    align-items:center;
+}
+
+
+
+.ui-menu-item-wrapper:before{
+    content:"";
+    display:inline-block;
+    width:32px;
+    height:32px;
+    margin-right:10px;
+
+    background-size:contain;
+    background-position: left center;
+    background-repeat:  no-repeat;
+}
+
+
+li.ui-menu-item .youtubeScroll:before{
+    background-image:url(/images/categories/youtube.png);
+}
+
+li.ui-menu-item .instaScroll:before{
+    background-image:url(/images/categories/instagram.png);
+}
+
+
+li.ui-menu-item .vkInScroll:before{
+    background-image:url(/images/categories/vkontakte.png);
+}
+
+
+li.ui-menu-item .telegramScroll:before{
+    background-image:url(/images/categories/telegram.png);
+}
+
+
+li.ui-menu-item .facebookScroll:before{
+    background-image:url(/images/categories/facebook.png);
+}
+
+
+li.ui-menu-item .okInScroll:before{
+    background-image:url(/images/categories/ok.png);
+}
+
+
+li.ui-menu-item .tiktokScroll:before{
+    background-image:url(/images/categories/tiktok.png);
+}
+
+li.ui-menu-item .twitterScroll:before{
+    background-image:url(/images/categories/twitter.png);
+}
+
+li.ui-menu-item .twitchScroll:before{
+    background-image:url(/images/categories/twitch.png);
+}
+
+li.ui-menu-item .arrow:before{
+    background-image:url(/images/categories/arrow.png);
+}
+
+
