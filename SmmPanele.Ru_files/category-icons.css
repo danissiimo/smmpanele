@@ -73,10 +73,6 @@ li.ui-menu-item .twitchScroll:before{
     background-image:url(/images/categories/twitch.png);
 }
 
-li.ui-menu-item .redditScroll:before{
-    background-image:url(/images/categories/reddit.png);
-}
-
 li.ui-menu-item .arrow:before{
     background-image:url(/images/categories/arrow.png);
 }
